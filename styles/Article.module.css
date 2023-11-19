@@ -1,0 +1,58 @@
+.articles {
+  width: 400px;
+  /* height: 400px; */
+  margin: 10px;
+  box-shadow: #7f7f7f30 4px 4px 30px;
+  padding: 20px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  overflow: hidden;
+}
+
+.divider {
+  width: 100%;
+  height: 1px;
+  background-color: rgb(233, 190, 89);
+  margin: 15px 0px 15px 0px;
+}
+
+.articleHeader {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bookmarkIcon {
+  cursor: pointer;
+}
+
+.bookmarkIcon:hover {
+  opacity: 0.6;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+  padding: 10px 20px;
+  background-color: black;
+  font-weight: 600;
+  width: fit-content;
+  border-radius: 8px;
+  align-self: flex-end;
+  transition: 0.2s;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.link:hover {
+  color: black;
+  background-color: white;
+  outline: black 3px solid;
+}
+
+.icon_link {
+  width: 20px;
+}

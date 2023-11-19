@@ -1,0 +1,17 @@
+.articlesContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  margin-bottom: 12px;
+  gap: 20px;
+}
+
+.sectionTitle {
+  margin-left: 25px;
+}
+
+.main_container {
+  max-width: 1500px;
+  margin: auto;
+}
